@@ -4,7 +4,7 @@ import numpy as np
 
 def plot_function():
 	x = np.linspace(-1, 1, 100)	# tutaj uzupełnij
-	y = np.sin(x)							# tutaj uzupełnij
+	y = np.sin(x)			# tutaj uzupełnij
 	plt.figure()
 	plt.plot(x, y)
 	plt.savefig("../figures/twoj_numer_indeksu.png")
