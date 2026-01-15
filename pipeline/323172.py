@@ -5,7 +5,7 @@ import numpy as np
 def plot_function():
 	x = np.linspace(-2, 2, 400)	# tutaj uzupełnij
 	y = np.linspace(-2, 2, 400)
-	X, Y = meshgrid(x, y)
+	X, Y = np.meshgrid(x, y)
 
 	F = X**2 + (Y - np.abs(X)**(2/3))**2
 	
