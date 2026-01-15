@@ -3,13 +3,14 @@ import numpy as np
 
 
 def plot_function():
-	x = np.linspace(-1, 1, 100)	# tutaj uzupełnij
-	y = np.sin(x)							# tutaj uzupełnij
+	x = np.linspace(-1, 10, 500)	#
+	y = np.exp(x) - 4321			#
 	plt.figure()
 	plt.plot(x, y)
-	plt.savefig("../figures/twoj_numer_indeksu.png")
+	plt.savefig("../figures/346365.png")
 	return "Figure was succesfully saved"
 
 
 if __name__=="__main__":
 	print(plot_function())
+
