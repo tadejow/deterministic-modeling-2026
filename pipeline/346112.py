@@ -3,11 +3,11 @@ import numpy as np
 
 
 def plot_function():
-	x = np.linspace(-1, 1, 100)	# tutaj uzupełnij
-	y = np.sin(x)							# tutaj uzupełnij
+	x = np.linspace(-10, 10, 100)	# tutaj uzupełnij
+	y = np.sin(x)*x							# tutaj uzupełnij
 	plt.figure()
 	plt.plot(x, y)
-	plt.savefig("../figures/twoj_numer_indeksu.png")
+	plt.savefig("../figures/346112.png")
 	return "Figure was succesfully saved"
 
 
